@@ -77,7 +77,7 @@ public class Logic {
 
     public void checkSwedishLetters(String input) {
         if (input.contains("å") || input.contains("ä") || input.contains("ö")) {
-            System.out.println("Du kan inte skriva å,ä eller ö, skriv på engelska eller morse och försök igen!");
+            System.out.println("Du kan inte skriva å,ä eller ö, skriv på engelska eller i morse och försök igen!");
         }
     }
 
